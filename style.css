@@ -1,0 +1,90 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+}
+
+main {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+}
+
+header,
+footer,
+div {
+  background-color: rgb(0, 174, 174);
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  /* height: 50vh; */
+  flex-wrap: wrap;
+}
+
+div {
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
+  width: 30%;
+  height: 50px;
+  transition: transform 0.2s;
+  margin: 10px;
+  align-items: center;
+  background-color: rgb(0, 174, 174);
+}
+
+div:hover,
+.questao a:hover {
+  background-color: rgb(19, 77, 139);
+  transform: scale(1.03);
+  font-weight: bold;
+}
+
+.menu a {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+header,
+footer {
+  padding: 20px;
+}
+
+.questao {
+  display: flex;
+  align-items: baseline;
+}
+
+.questao h1 {
+  flex-grow: 3;
+}
+
+.questao a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
